@@ -9,7 +9,6 @@ public class CyclicRotation {
 		for (int i = 0; i < A.length; i++) {
 			result[(K + i) % A.length] = A[i];
 		}
-		
 		return result;
 	}
 }
