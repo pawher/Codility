@@ -13,7 +13,7 @@ public class FrogRiverOne {
 			set.add(A[i]);
 
 			if (set.size() == X) {
-				return i + 1;
+				return i;
 			}
 		}
 
