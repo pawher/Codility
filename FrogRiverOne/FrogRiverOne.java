@@ -16,7 +16,6 @@ public class FrogRiverOne {
 				return i;
 			}
 		}
-
 		return -1;
 	}
 }
