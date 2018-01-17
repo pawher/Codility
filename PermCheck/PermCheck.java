@@ -18,16 +18,16 @@ public class PermCheck {
 		}
 		return 1;
 	}
-	
-	//  ---- with Java 8, but score is: Correctness 100%, Performance 83%
+
+	// ---- with Java 8, but the score is: Correctness 100%, Performance 83%
 	public int solutionWithJava8(int[] A) {
-		
+
 		Arrays.sort(A);
 		if (A[0] != 1 || A[A.length - 1] != A.length) {
 			return 0;
 		}
-		
-		return Arrays.stream(A).distinct().count() == A.length? 1:0;
+
+		return Arrays.stream(A).distinct().count() == A.length ? 1 : 0;
 	}
 
 }
