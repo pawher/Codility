@@ -4,11 +4,7 @@ import java.util.Stack;
 
 public class Nesting {
 
-	public static void main(String[] args) {
-		System.out.println(solution("(())"));
-	}
-
-	public static int solution(String S) {
+	public int solution(String S) {
 
 		if (S.isEmpty()) {
 			return 1;
