@@ -2,6 +2,8 @@ package PassingCars;
 
 public class PassingCars {
 
+	final static int MAX = 1000000000;
+	
 	public int solution(int[] A) {
 
 		int east = 0;
@@ -12,7 +14,7 @@ public class PassingCars {
 				east++;
 			} else {
 				result = result + east;
-				if (result > 1000000000) {
+				if (result > MAX) {
 					return -1;
 				}
 			}
