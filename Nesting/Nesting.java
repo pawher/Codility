@@ -10,7 +10,7 @@ public class Nesting {
 			return 1;
 		}
 		
-		if (S.length() % 2 == 1 || S.isEmpty() || S.charAt(0) == ')' || S.charAt(S.length() - 1) == '(') {
+		if (S.length() % 2 == 1 || S.charAt(0) == ')' || S.charAt(S.length() - 1) == '(') {
 			return 0;
 		}
 
